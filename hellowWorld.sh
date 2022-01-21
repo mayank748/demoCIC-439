@@ -1,2 +1,2 @@
 echo "Hello world"
-echo "Creating a new branch"
+echo "Changed the master"
