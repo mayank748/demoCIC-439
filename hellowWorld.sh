@@ -1,5 +1,10 @@
-echo "Hello world"
-echo "Changed the master"
-echo "Trying to generate git conflict"
-echo "Trying to push "
-echo "Making changes from anther branch"
+#! /bin/bash -x
+
+isName="Mayank"
+echo "My name is "$isName
+
+for((i=0;i<10;i++))
+do
+#body of for loop
+echo $i
+done
