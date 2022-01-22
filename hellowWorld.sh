@@ -1,10 +1,9 @@
 #! /bin/bash -x
 
-isName="Mayank"
-echo "My name is "$isName
-
-for((i=0;i<10;i++))
+fileName=''
+for file in `ls | grep -v /`
 do
 #body of for loop
-echo $i
+fileName=`echo $file | awk -F. '{print $1}'`
+mkdir $fileName
 done
