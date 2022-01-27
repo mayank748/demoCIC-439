@@ -1,0 +1,5 @@
+#To exclude all the .pdf file
+*.pdf
+
+#To exclude only text file
+xyz.txt
