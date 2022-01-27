@@ -1,0 +1,4 @@
+#To ignore all the txt file
+*.txt
+#to ignore one specific pdf file
+pqr.pdf
