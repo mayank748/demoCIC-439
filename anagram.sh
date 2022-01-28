@@ -20,7 +20,7 @@ function checkValueExistOrNot(){
 			isIterating='false'
 			#echo $num_a
 		fi
-		if [ $valueToTest -eq $rem_b ] || [ $valueToTest -eq $secondNumber ]
+		if [[ $valueToTest -eq $rem_b ]] || [[ $valueToTest -eq $secondNumber ]]
 		then
 			echo 'true'
 		else
@@ -43,9 +43,9 @@ do
 		echo $num_a
 		status=`checkValueExistOrNot $num_a $num_b`
 	fi
-	if [ $status -eq 'false' ]
-	then
-		isTrue='false'
-		echo "Not a anagram"
-	fi
+	#if [ $status -eq 'false' ]
+	#then
+	#	isTrue='false'
+	#	echo "Not a anagram"
+	#fi
 done
